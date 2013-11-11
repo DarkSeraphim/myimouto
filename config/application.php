@@ -26,8 +26,8 @@ class Application extends \Rails\Application\Base
         
         $config->action_view->layout = 'default';
         
-        $config->plugins = [
+        $config->plugins = array(
             'Rails\WillPaginate'
-        ];
+        );
     }
 }
